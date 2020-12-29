@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+h1{
+    margin-left: 170px; 
+}
+.border{
+    z-index: -15;
+    position: absolute;
+    top: 9px;
+    background-color: #c8f8f8;
+    left: 39px;
+    width: 510px;
+    height: 659px;
+    border: 2px solid #001100;
+}
+button {
+    border-radius: 10px;
+    padding: 7px;
+    background: #7885f7;
+    font-weight: 600;
+}
+.buttons{
+    margin: 20px 10px 20px 70px;
+}
+#score{
+    margin-left: 250px;
+    font-size: 31px;
+    color: #5d6d04;
+}
+.field{
+    z-index: 30;            
+    height: 23px;
+    margin-left: 53px;
+}
+.cell{
+    margin: 0;
+    display: inline-block;
+    background-color: #e6a8ee;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #010;
+    border-radius: 4px;
+    z-index: 30;
+    transition: background-color 0.3s;
+}
+.snake{
+    box-shadow: 0 0 10px #000000 inset;
+    background: linear-gradient(to right, #00FF00, #556B2F);
+    z-index: 30;
+    transition: background-color 0.2s;
+}
+.food{
+    background-color:#FF0000;
+    z-index: 30;
+    box-shadow: 0 0 10px #000000 inset;
+    transition: background-color 2s;
+}
